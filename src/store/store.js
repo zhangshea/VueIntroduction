@@ -10,13 +10,21 @@ export default new Vuex.Store({
   mutations: {
     ADD_TODO(state, new_todo){
       state.todos.push({
-        body: new_todo,
+        body: new_todo.body,
+        owner: new_todo.owner,
         completed: false
       })
     },
-    REMOVE_TODO(state, todo){
-      let todo = state.todos;
-      todo.splice(todo.indexOf(todo), 1)
+    CHANGE_TODO(state, find_todo){
+      for (let i in state.todos) {
+        let todo = state.todos[i];
+        if (todo.body === find_todo.body && todo.owner === find_todo.owner) {
+            console.log("before", todo);
+            todo.owner = (3 - +(todo.owner)) + "";
+            console.log("after", todo);
+            break;
+        }
+      }
     },
     COMPLETE_TODO(state, todo){
       todo.completed = !todo.completed
@@ -26,15 +34,18 @@ export default new Vuex.Store({
     addTodo({commit}, new_todo){
       commit('ADD_TODO', new_todo)
     },
-    removeTodo({commit}, todo){
-      commit('REMOVE_TODO', todo)
+    changeTodo({commit}, todo){
+      commit('CHANGE_TODO', todo)
     },
     completeTodo({commit}, todo){
       commit('COMPLETE_TODO', todo)
     }
-
   },
   getters: {
-    todos: state => state.todos.filter((todo) => {return !todo.completed}),
+    todos: (state) => (id) => {
+        return state.todos.filter((todo) => {
+          return !todo.completed && todo.owner === id
+        })
+    }
   }
 })

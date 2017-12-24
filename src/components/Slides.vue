@@ -1,6 +1,5 @@
 <template>
   <div v-bind:is="currentPage"></div>
-
 </template>
 
 <script>
@@ -22,6 +21,7 @@
   import Virtual from "./Pages/Chapter-Vue2/Virtual"
   import Components from "./Pages/Chapter-Vue2/Components"
   import Vuex from "./Pages/Chapter-Vue2/Vuex"
+  import VuexDemo from "./Pages/Chapter-Vue2/VuexDemo"
   import Others from "./Pages/Chapter-Vue2/Others"
 
   import Survey from "./Pages/Chapter-Conclusion/Survey"
@@ -49,6 +49,7 @@
           {cpt: Virtual, content: "Virtual"},
           {cpt: Components, content: "Components"},
           {cpt: Vuex, content: "Vuex"},
+          {cpt: VuexDemo, content: "VuexDemo"},
           {cpt: Others, content: "Others"},
           {cpt: Survey, content: "Survey"},
           {cpt: Conclusion, content: "Conclusion"},
@@ -73,6 +74,7 @@
       Virtual,
       Components,
       Vuex,
+      VuexDemo,
       Others,
       Survey,
       Conclusion,
@@ -89,14 +91,17 @@
         }
       },
       goNext: function () {
-        if (this.cid < this.pages.length - 1) {
-          this.cid = (+this.cid) + 1;
-        }
+          if (this.cid < this.pages.length - 1) {
+              window.location.hash = '#/' + ((+this.cid) + 1);
+          }
       },
       goPre: function () {
-        if (this.cid > 0) {
-          this.cid = (+this.cid) - 1;
-        }
+          if (this.cid > 0) {
+              window.location.hash = '#/' + ((+this.cid) - 1);
+          }
+      },
+      hashChange: function (event) {
+          this.cid = (+window.location.hash.replace('#/', ''));
       }
     },
     watch: {
@@ -105,8 +110,11 @@
       }
     },
     created: function () {
-      this.cid = this.id;
-      window.addEventListener('keyup', this.keyUp);
+        this.cid = this.id;
+        window.addEventListener('keyup', this.keyUp);
+        window.addEventListener('hashchange', this.hashChange)
     }
   }
+
+
 </script>
