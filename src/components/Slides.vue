@@ -4,29 +4,29 @@
 </template>
 
 <script>
-  import Title from "@/components/Pages/Title"
+  import Title from "./Pages/Title"
 
-  import IntroVue from "@/components/Pages/Chapter-IntroVue/IntroVue"
-  import WebFrontEnd from "@/components/Pages/Chapter-IntroVue/WebFrontEnd"
-  import WebFrontEndFramework from "@/components/Pages/Chapter-IntroVue/WebFrontEndFramework"
-  import EventsBased from "@/components/Pages/Chapter-IntroVue/EventsBased"
+  import IntroVue from "./Pages/Chapter-IntroVue/IntroVue"
+  import WebFrontEnd from "./Pages/Chapter-IntroVue/WebFrontEnd"
+  import WebFrontEndFramework from "./Pages/Chapter-IntroVue/WebFrontEndFramework"
+  import EventsBased from "./Pages/Chapter-IntroVue/EventsBased"
 
-  import VueAndAngular from "@/components/Pages/Chapter-Vue1/VueAndAngular"
-  import DataBind from "@/components/Pages/Chapter-Vue1/DataBind"
-  import DataBindImplement from "@/components/Pages/Chapter-Vue1/DataBindImplement"
-  import DataBindProblem from "@/components/Pages/Chapter-Vue1/DataBindProblem"
+  import VueAndAngular from "./Pages/Chapter-Vue1/VueAndAngular"
+  import DataBind from "./Pages/Chapter-Vue1/DataBind"
+  import DataBindImplement from "./Pages/Chapter-Vue1/DataBindImplement"
+  import DataBindProblem from "./Pages/Chapter-Vue1/DataBindProblem"
 
-  import IntroVue2 from "@/components/Pages/Chapter-Vue2/IntroVue2"
-  import ProgressiveLevel from "@/components/Pages/Chapter-Vue2/ProgressiveLevel"
-  import StateView from "@/components/Pages/Chapter-Vue2/StateView"
-  import Virtual from "@/components/Pages/Chapter-Vue2/Virtual"
-  import Components from "@/components/Pages/Chapter-Vue2/Components"
-  import Vuex from "@/components/Pages/Chapter-Vue2/Vuex"
-  import Others from "@/components/Pages/Chapter-Vue2/Others"
+  import IntroVue2 from "./Pages/Chapter-Vue2/IntroVue2"
+  import ProgressiveLevel from "./Pages/Chapter-Vue2/ProgressiveLevel"
+  import StateView from "./Pages/Chapter-Vue2/StateView"
+  import Virtual from "./Pages/Chapter-Vue2/Virtual"
+  import Components from "./Pages/Chapter-Vue2/Components"
+  import Vuex from "./Pages/Chapter-Vue2/Vuex"
+  import Others from "./Pages/Chapter-Vue2/Others"
 
-  import Survey from "@/components/Pages/Chapter-Conclusion/Survey"
-  import Conclusion from "@/components/Pages/Chapter-Conclusion/Conclusion"
-  import Thanks from "@/components/Pages/Chapter-Conclusion/Thanks"
+  import Survey from "./Pages/Chapter-Conclusion/Survey"
+  import Conclusion from "./Pages/Chapter-Conclusion/Conclusion"
+  import Thanks from "./Pages/Chapter-Conclusion/Thanks"
 
   export default {
     props: ['id'],
