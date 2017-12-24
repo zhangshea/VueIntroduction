@@ -4,7 +4,7 @@
       <h1 class="f3 f2-m f1-l fw2 black-90 mv3">
         谢谢大家！
       </h1>
-      <h2 class="f5 f4-m f3-l fw2 black-90 mt0 lh-copy">
+      <h2 class="f4 f4-m f3-l fw2 black-90 mt0 lh-copy">
         This slides introduces Vue.JS is made up with Vue.JS.
       </h2>
     </header>

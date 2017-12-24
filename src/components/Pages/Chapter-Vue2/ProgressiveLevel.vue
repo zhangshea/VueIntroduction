@@ -18,7 +18,7 @@
           <cite class="f6 ttu tracked fs-normal">―尤雨溪</cite>
         </blockquote>
       </div>
-      <img src="../../../assets/fef.png" width="600"/>
+      <img src="../../../assets/fef.png" height="auto"/>
     </div>
   </article>
 </template>

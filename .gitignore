@@ -10,3 +10,8 @@
 idea/
 
 node_modules/
+
+static/NOTHING
+
+dist/
+

@@ -10,10 +10,10 @@
     </header>
 
     <div class="fn fl-ns w-50-ns">
-      <p class="f5 f5-m f5-l lh-copy measure mt0">
+      <p class="f4 f4-m f4-l lh-copy measure mt0">
         Vue 是最多人期待并且想学的框架(黄色部分)。
       </p>
-      <img src="../../../assets/stateofjs.png" height="500"/>
+      <img src="../../../assets/stateofjs.png" height="auto"/>
     </div>
   </article>
 </template>

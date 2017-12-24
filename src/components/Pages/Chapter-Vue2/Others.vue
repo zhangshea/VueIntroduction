@@ -10,16 +10,16 @@
     </header>
 
     <div class="fn fl-ns w-50-ns">
-      <p class="f5 f5-m f5-l lh-copy measure mt0">
+      <p class="f4 f4-m f4-l lh-copy measure mt0">
         Vue 2.x 作为整体解决方案，还在两个新的领域进行尝试。
       </p>
-      <p class="f5 f5-m f5-l lh-copy measure mt0">
+      <p class="f4 f4-m f4-l lh-copy measure mt0">
         一个是服务器端渲染，也就是 Server Side Render (SSR)，这个主要是为了提供一体化的开发体验，提高客户端的性能，而且很重要的是可以进行 SEO。
       </p>
-      <p class="f5 f5-m f5-l lh-copy measure mt0">
+      <p class="f4 f4-m f4-l lh-copy measure mt0">
         另一个是原生渲染，也就是嵌入 Native 开发。这个主要是为了提供界面的复用，提供敏捷的开发体验，目前还在试验阶段，通过 Weex 进行实现（阿里的开源项目）。
       </p>
-      <img src="../../../assets/SSR.png" height="400"/>
+      <img src="../../../assets/SSR.png" height="auto"/>
     </div>
   </article>
 </template>
