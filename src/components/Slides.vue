@@ -12,6 +12,7 @@
 
   import VueAndAngular from "./Pages/Chapter-Vue1/VueAndAngular"
   import DataBind from "./Pages/Chapter-Vue1/DataBind"
+  import DataBindDemo from "./Pages/Chapter-Vue1/DataBindDemo"
   import DataBindImplement from "./Pages/Chapter-Vue1/DataBindImplement"
   import DataBindProblem from "./Pages/Chapter-Vue1/DataBindProblem"
 
@@ -41,6 +42,7 @@
           {cpt: EventsBased, content: "EventsBased"},
           {cpt: VueAndAngular, content: "VueAndAngular"},
           {cpt: DataBind, content: "DataBind"},
+          {cpt: DataBindDemo, content: "DataBindDemo"},
           {cpt: DataBindImplement, content: "DataBindImplement"},
           {cpt: DataBindProblem, content: "DataBindProblem"},
           {cpt: IntroVue2, content: "IntroVue2"},
@@ -66,6 +68,7 @@
       EventsBased,
       VueAndAngular,
       DataBind,
+      DataBindDemo,
       DataBindImplement,
       DataBindProblem,
       IntroVue2,

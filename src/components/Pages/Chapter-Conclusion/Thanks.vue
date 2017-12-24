@@ -5,7 +5,10 @@
         谢谢大家！
       </h1>
       <h2 class="f4 f4-m f3-l fw2 black-90 mt0 lh-copy">
-        This slides introduces Vue.JS is made up with Vue.JS.
+        This presentation introduced VueJS was built with VueJS.
+      </h2>
+      <h2 class="f4 f4-m f3-l fw2 black-90 mt0 lh-copy">
+        Thanks Tachyons
       </h2>
     </header>
   </div>
