@@ -10,6 +10,9 @@
       <h2 class="f4 f4-m f3-l fw2 black-90 mt0 lh-copy">
         Thanks Tachyons /tæ'kaɪnz/ A CSS Toolbox
       </h2>
+      <h2 class="f4 f4-m f3-l fw2 black-90 mt0 lh-copy">
+        code @ https://github.com/zhangshea/VueIntroduction
+      </h2>
     </header>
   </div>
 </template>
