@@ -7,6 +7,7 @@
       <h2 class="f3 mid-gray lh-title">
         A short survey on Vue.JS - Vue 1.x 和 AngularJS
       </h2>
+      <img src="../../../assets/2-way.png" class="mw6"/>
     </header>
     <div class="fn fl-ns w-50-ns">
       <p class="f4 lh-copy measure mt0-ns">
