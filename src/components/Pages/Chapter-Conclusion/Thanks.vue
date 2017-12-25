@@ -8,7 +8,7 @@
         This presentation introduced VueJS was built with VueJS.
       </h2>
       <h2 class="f4 f4-m f3-l fw2 black-90 mt0 lh-copy">
-        Thanks Tachyons
+        Thanks Tachyons /tæ'kaɪnz/ A CSS Toolbox
       </h2>
     </header>
   </div>

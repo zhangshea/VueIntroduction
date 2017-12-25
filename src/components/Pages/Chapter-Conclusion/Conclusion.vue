@@ -7,6 +7,7 @@
       <h2 class="f3 mid-gray lh-title">
         A short survey on Vue.JS - 结论
       </h2>
+      <img src="../../../assets/Vue.png" height="401" width="557"/>
     </header>
 
     <div class="fn fl-ns w-50-ns">
