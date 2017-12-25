@@ -14,7 +14,7 @@
         比较早期的框架比如 Backbone 就是在 MVC 设计模式的基础上增加了一定的面向数据的机制，从而在一段时期被广泛应用。
       </p>
       <p class="f4 lh-copy measure mt0-ns">
-        之后出现的 AngularJS 在 MVC 的基础上，增加了完整的数据双向绑定机制，并在之后的版本增加了数据绑定机制。
+        之后出现的 AngularJS 在 MVC 的基础上，增加了完整的数据双向绑定机制，并在之后的版本增加了模块化机制。
         但是 AngularJS 同时还发布了一系列的文件组织和数据流动机制，只有当整个项目完整的使用 AngularJS 来开发时，才能感受到 AngularJS 的优点。
       </p>
       <p class="f4 lh-copy measure mt0-ns">

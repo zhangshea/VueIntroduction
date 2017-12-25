@@ -7,6 +7,7 @@
       <h2 class="f3 mid-gray lh-title">
         A short survey on Vue.JS - Vue 概览
       </h2>
+      <img src="../../../assets/dom.jpg" height="auto"/>
     </header>
     <div class="fn fl-ns w-50-ns">
       <p class="f4 lh-copy measure mt0-ns">
